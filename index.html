@@ -9,9 +9,15 @@
 </head>
     <body>
           <header>
-            <audio autoplay loop always>
-              <source src="music/PharrellWilliamsVEVO (3).mp3">
+            <audio audio id="bg-music" loop always>
+              <source src="music/PharrellWilliamsVEVO (3).mp3" type="audio/mpeg">
+
+              <button type ="button" onclick="document.getElementById('bg-music').play()"> this.style.display='none' ; " 
+                   style="background : #c8a278; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
+                   Enable Ambient sound
+              </button>
             </audio>
+            
             <h1>Kinoti Tea & Herbs | Home of Premium Teas</h1>
           <nav>
             <a href="index.html">Home</a>
