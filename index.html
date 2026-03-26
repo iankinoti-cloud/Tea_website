@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kinoti Tea & Herbs | Home of Premium Teas</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="imagess/Cup of Tea.jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinoti Tea & Herbs | Home of Premium Teas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagess/Cup of Tea.jpeg">
 </head>
-    <body>
-          <header>
-            <audio audio id="bg-music" loop always>
-              <source src="music/PharrellWilliamsVEVO (3).mp3" type="audio/mpeg">
+<body>
+    <audio id="bg-music" loop>
+        <source src="music/PharrellWilliamsVEVO (3).mp3" type="audio/mpeg">
+    </audio>
 
-              <button type ="button" onclick="document.getElementById('bg-music').play()"> this.style.display='none' ; " 
-                   style="background : #c8a278; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
-                   Enable Ambient sound
-              </button>
-            </audio>
-            
-            <h1>Kinoti Tea & Herbs | Home of Premium Teas</h1>
-          <nav>
+    <header>
+        <h1>Kinoti Tea & Herbs | Home of Premium Teas</h1>
+        <nav>
             <a href="index.html">Home</a>
             <a href="products.html" target="_blank">Products</a>
             <a href="contacts.html" target="_blank">Contact</a>
-          </nav>
-  </header>
+        </nav>
+    </header>
 
-  <section class="hero">
-          <h2>Experience the Essence of Nature</h2>
-          <p>Premium organic teas & herbal blends crafted with elegance.</p>
-          <a href="products.html" class="btn">Explore Products</a>
-  </section>
+    <section class="hero">
+        <h2>Experience the Essence of Nature</h2>
+        <p>Premium organic teas & herbal blends crafted with elegance.</p>
+        <a href="products.html" class="btn">Explore Products</a>
+    </section>
 
-  <section class="about">
-    <h2>About Us</h2>
-    <p>Kinoti Tea & Herbs brings you the finest handpicked teas and medicinal herbs sourced from nature. Our blends are crafted to deliver both luxury and wellness.</p>
-  </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Kinoti Tea & Herbs brings you the finest handpicked teas and medicinal herbs sourced from nature. Our blends are crafted to deliver both luxury and wellness.</p>
+    </section>
 
-  <footer>
-    <p>© 2026 Kinoti Tea & Herbs</p>
-  </footer>
+    <footer>
+        <p>© 2026 Kinoti Tea & Herbs</p>
+    </footer>
+
+    <script>
+       
+        document.body.addEventListener('click', function() {
+            const audio = document.getElementById('bg-music');
+            audio.play().catch(error => console.log("Playback interaction required."));
+        }, { once: true }); 
+    </script>
 </body>
-</html> 
+</html>
