@@ -6,9 +6,9 @@ Kinoti tea and herbs shows the greatness of our country Kenya, the land of great
 This repository contains the front-end architecture for the Kinoti Tea & Herbs digital storefront. The objective was to create an immersive environment where "Experience the Essence of Nature" is not just a slogan, but a visual reality.
 
 -{Key Features}
->Minimalist Navigation: Efficient routing between Home, Products, and Contact portals.
+-Minimalist Navigation: Efficient routing between Home, Products, and Contact portals.
 
->Responsive Design: Optimized for diverse viewing environments (Mobile, Tablet, Desktop).
+-Responsive Design: Optimized for diverse viewing environments (Mobile, Tablet, Desktop).
 
 ## Technology Stack
 -HTML5: Semantic structure for optimal SEO and accessibility.
