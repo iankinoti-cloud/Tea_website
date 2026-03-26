@@ -148,10 +148,3 @@ footer {
   color: white;
 }
 
-#bg-music {
-    display: none;
-    visibility: hidden;
-    height: 0;
-    width: 0;
-    position: absolute;
-}
