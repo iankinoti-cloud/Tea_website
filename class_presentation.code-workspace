@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../class_presentation"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "teawebsite"
+	}
+}
